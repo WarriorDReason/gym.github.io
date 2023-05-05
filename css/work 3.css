@@ -1,0 +1,106 @@
+/* Css reset */
+body{
+    font-size: 115%;
+    margin: 0px;
+    padding:0px;
+    background: url(Bg.jpg);
+    color: white;
+}
+.left{
+/* border: 2px solid red; */
+/* border: 2px solid black;
+border-radius: 9px; */
+display: inline-block;
+position: absolute;
+top: 20px;
+left: 30px;
+font-size: 70%;
+text-align: center;
+font-family: 'EB Garamond', serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+line-height: 11px;
+}
+.center{
+    /* border: 2px solid green; */
+    display: block;
+    width: 33%;
+    margin: 20px 0px 0px 850px;
+}
+.right{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    /* border: 2px solid blue; */
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+    list-style:none;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 105%;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 11px 11px 11px 5px;
+    /* padding left: 2px; */
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+img{
+    width: 75px;
+
+    /* height: 50px; */
+    filter: invert(100%);
+}
+.btn{
+    font-size: larger;
+    padding: 3px;
+    margin: 15px 2px 4px 6px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    position: absolute;
+    right: 2px;
+    border: 2px solid white;
+    border-radius: 32px;
+    margin: 480px 0px;
+    padding:20px;
+    width: 33%;
+
+}
+#h3{
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 6px;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 19px;
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 63%;
+    padding: 1%;
+}
