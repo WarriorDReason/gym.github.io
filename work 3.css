@@ -4,6 +4,7 @@ body{
     margin: 0px;
     padding:0px;
     background: url(Bg.jpg);
+    background-repeat:no-repeat;
     color: white;
 }
 .left{
